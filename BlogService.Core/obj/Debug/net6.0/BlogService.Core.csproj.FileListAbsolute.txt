@@ -1,0 +1,42 @@
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.deps.json
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.runtimeconfig.json
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Application.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Common.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Domain.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Application.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Common.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Domain.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.AssemblyReference.cache
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.AssemblyInfoInputs.cache
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.AssemblyInfo.cs
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.CoreCompileInputs.cache
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.CopyComplete
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\refint\BlogService.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.genruntimeconfig.cache
+E:\Development\Test\BlogTestRound\Code\BlogService.Core\obj\Debug\net6.0\ref\BlogService.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.deps.json
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.runtimeconfig.json
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Core.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Application.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Common.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Domain.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Application.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Common.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\bin\Debug\net6.0\BlogService.Domain.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.AssemblyReference.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.AssemblyInfoInputs.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.AssemblyInfo.cs
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.CoreCompileInputs.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.csproj.CopyComplete
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\refint\BlogService.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\BlogService.Core.genruntimeconfig.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService.Core\obj\Debug\net6.0\ref\BlogService.Core.dll

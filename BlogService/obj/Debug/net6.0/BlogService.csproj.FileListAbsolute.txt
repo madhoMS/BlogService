@@ -1,0 +1,230 @@
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\appsettings.Development.json
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\appsettings.json
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.exe
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.deps.json
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.runtimeconfig.json
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Azure.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Azure.Identity.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Humanizer.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\StackExchange.Redis.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.CodeDom.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Text.Json.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Application.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Common.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Core.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Domain.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Infrastructure.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Infrastructure.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Application.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Common.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Core.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\bin\Debug\net6.0\BlogService.Domain.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.AssemblyReference.cache
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.AssemblyInfoInputs.cache
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.AssemblyInfo.cs
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.CoreCompileInputs.cache
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.MvcApplicationPartsAssemblyInfo.cs
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.MvcApplicationPartsAssemblyInfo.cache
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.BlogService.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.build.BlogService.props
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlogService.props
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlogService.props
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets.build.json
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\staticwebassets.development.json
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\scopedcss\bundle\BlogService.styles.css
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.CopyComplete
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\refint\BlogService.dll
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.pdb
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\BlogService.genruntimeconfig.cache
+E:\Development\Test\BlogTestRound\Code\BlogService\obj\Debug\net6.0\ref\BlogService.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\appsettings.Development.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\appsettings.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.exe
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.deps.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.runtimeconfig.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Azure.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Azure.Identity.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Humanizer.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Mono.TextTemplating.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.AspNetCore.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Serilog.Sinks.File.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\StackExchange.Redis.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.CodeDom.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Memory.Data.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Text.Json.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Application.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Common.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Core.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Domain.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Infrastructure.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Infrastructure.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Application.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Common.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Core.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\bin\Debug\net6.0\BlogService.Domain.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.AssemblyReference.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.GeneratedMSBuildEditorConfig.editorconfig
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.AssemblyInfoInputs.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.AssemblyInfo.cs
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.CoreCompileInputs.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.MvcApplicationPartsAssemblyInfo.cs
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.MvcApplicationPartsAssemblyInfo.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.BlogService.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.build.BlogService.props
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlogService.props
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlogService.props
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets.build.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\staticwebassets.development.json
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\scopedcss\bundle\BlogService.styles.css
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.csproj.CopyComplete
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\refint\BlogService.dll
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.pdb
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\BlogService.genruntimeconfig.cache
+G:\Development\TestRound\New folder (3)\Code\BlogService\obj\Debug\net6.0\ref\BlogService.dll

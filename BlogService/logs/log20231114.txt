@@ -1,0 +1,739 @@
+2023-11-14 12:59:10 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 12:59:10 [INF] Now listening on: https://localhost:7033
+2023-11-14 12:59:10 [INF] Now listening on: http://localhost:5038
+2023-11-14 12:59:10 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 12:59:10 [INF] Hosting environment: Development
+2023-11-14 12:59:10 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 12:59:10 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 12:59:11 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 563.8634ms
+2023-11-14 12:59:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 12:59:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 7.3777ms
+2023-11-14 12:59:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 12:59:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2372ms
+2023-11-14 12:59:11 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 12:59:11 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.7905ms
+2023-11-14 12:59:44 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User application/json 123
+2023-11-14 12:59:44 [INF] CORS policy execution successful.
+2023-11-14 12:59:45 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:59:45 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 12:59:53 [ERR] Error when create user
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BlogService.Common.Utilities.Common.UploadImage(String base64Image, String module) in G:\Development\TestRound\Code\BlogService.Common\Utilities\Common.cs:line 41
+   at BlogService.Infrastructure.Services.UserService.CreateAsync(CreateUserDto createUser) in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\UserService.cs:line 41
+2023-11-14 12:59:53 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 12:59:53 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 8666.6556ms
+2023-11-14 12:59:53 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:59:53 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User application/json 123 - 200 - application/json;+charset=utf-8 8869.0677ms
+2023-11-14 14:46:09 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 14:46:10 [INF] Now listening on: https://localhost:7033
+2023-11-14 14:46:10 [INF] Now listening on: http://localhost:5038
+2023-11-14 14:46:10 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 14:46:10 [INF] Hosting environment: Development
+2023-11-14 14:46:10 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 14:46:11 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 14:46:11 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 619.2083ms
+2023-11-14 14:46:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 14:46:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 23.1889ms
+2023-11-14 14:46:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 14:46:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.6223ms
+2023-11-14 14:46:11 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 14:46:11 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.7490ms
+2023-11-14 14:46:56 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User application/json 125
+2023-11-14 14:46:56 [INF] CORS policy execution successful.
+2023-11-14 14:46:56 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 14:46:56 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 14:55:10 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 14:55:10 [INF] Now listening on: https://localhost:7033
+2023-11-14 14:55:10 [INF] Now listening on: http://localhost:5038
+2023-11-14 14:55:10 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 14:55:10 [INF] Hosting environment: Development
+2023-11-14 14:55:10 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 14:55:11 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 14:55:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 14:55:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 12.2679ms
+2023-11-14 14:55:11 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 510.4279ms
+2023-11-14 14:55:11 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 14:55:11 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.0954ms
+2023-11-14 14:55:11 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 14:55:12 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.3185ms
+2023-11-14 14:55:37 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User application/json 125
+2023-11-14 14:55:37 [INF] CORS policy execution successful.
+2023-11-14 14:55:37 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 14:55:37 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 14:55:46 [INF] Executed DbCommand (145ms) [Parameters=[@__normalizedEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-14 14:55:51 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 14:55:51 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (DbType = DateTime2), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 4000), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [ImageUrl], [IsDeleted], [LastName], [LockoutEnabled], [LockoutEnd], [ModifiedAt], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-11-14 14:56:00 [ERR] An error occurred using the connection to database 'TestRound_BlogPost' on server 'KAS0002\SQLEXPRESS'.
+2023-11-14 14:56:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BlogService.Infrastructure.Data.BlogPostContext'.
+System.InvalidOperationException: The current TransactionScope is already complete.
+   at System.Transactions.Transaction.get_Current()
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+   at Microsoft.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The current TransactionScope is already complete.
+   at System.Transactions.Transaction.get_Current()
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+   at Microsoft.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-14 14:56:34 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 14:56:34 [INF] Now listening on: https://localhost:7033
+2023-11-14 14:56:34 [INF] Now listening on: http://localhost:5038
+2023-11-14 14:56:34 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 14:56:34 [INF] Hosting environment: Development
+2023-11-14 14:56:34 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 14:56:35 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 14:56:36 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 556.2089ms
+2023-11-14 14:56:36 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 14:56:36 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 21.5345ms
+2023-11-14 14:56:36 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 14:56:36 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0364ms
+2023-11-14 14:56:36 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 14:56:36 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.9348ms
+2023-11-14 14:57:19 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User application/json 126
+2023-11-14 14:57:19 [INF] CORS policy execution successful.
+2023-11-14 14:57:19 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 14:57:19 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 14:57:25 [INF] Executed DbCommand (111ms) [Parameters=[@__normalizedEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-14 14:57:27 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 14:57:27 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (DbType = DateTime2), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (Size = 4000), @p17='?' (DbType = Boolean), @p18='?' (Size = 4000), @p19='?' (DbType = Boolean), @p20='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [ImageUrl], [IsDeleted], [LastName], [LockoutEnabled], [LockoutEnd], [ModifiedAt], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-11-14 14:57:33 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+2023-11-14 14:57:38 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 14:57:38 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 19313.938ms
+2023-11-14 14:57:38 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 14:57:38 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User application/json 126 - 200 - application/json;+charset=utf-8 19538.1860ms
+2023-11-14 14:58:14 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - -
+2023-11-14 14:58:14 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-14 14:58:14 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-14 14:58:14 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - - - 401 0 - 36.9862ms
+2023-11-14 14:58:16 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - -
+2023-11-14 14:58:16 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-14 14:58:16 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-14 14:58:16 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - - - 401 0 - 26.2966ms
+2023-11-14 14:59:12 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 14:59:13 [INF] Now listening on: https://localhost:7033
+2023-11-14 14:59:13 [INF] Now listening on: http://localhost:5038
+2023-11-14 14:59:13 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 14:59:13 [INF] Hosting environment: Development
+2023-11-14 14:59:13 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 14:59:13 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 14:59:14 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 14:59:14 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 518.2092ms
+2023-11-14 14:59:14 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 14.6790ms
+2023-11-14 14:59:14 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 14:59:14 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.2591ms
+2023-11-14 14:59:14 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 14:59:14 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.5310ms
+2023-11-14 14:59:22 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - -
+2023-11-14 14:59:22 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 14:59:22 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUserById(System.String) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 14:59:50 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 14:59:50 [INF] Executed action BlogService.Controllers.UserController.GetUserById (BlogService) in 27772.0577ms
+2023-11-14 14:59:50 [INF] Executed endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 14:59:50 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User/8764895c-e8f7-4ca5-cb86-08dbe4f3eb1a - - - 200 - application/json;+charset=utf-8 27979.4405ms
+2023-11-14 15:56:00 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 15:56:00 [INF] Now listening on: https://localhost:7033
+2023-11-14 15:56:00 [INF] Now listening on: http://localhost:5038
+2023-11-14 15:56:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 15:56:00 [INF] Hosting environment: Development
+2023-11-14 15:56:00 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 15:56:01 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 15:56:01 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 498.8378ms
+2023-11-14 15:56:01 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 15:56:01 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 17.2219ms
+2023-11-14 15:56:01 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 15:56:01 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.7794ms
+2023-11-14 15:56:02 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 15:56:02 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.8987ms
+2023-11-14 15:56:22 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70
+2023-11-14 15:56:22 [INF] CORS policy execution successful.
+2023-11-14 15:56:22 [INF] Executing endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 15:56:22 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] Login(BlogService.Application.DTOs.LoginDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 15:56:25 [INF] Executed DbCommand (120ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 15:56:25 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 15:56:25 [INF] Executed action BlogService.Controllers.UserController.Login (BlogService) in 3003.7456ms
+2023-11-14 15:56:25 [INF] Executed endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 15:56:25 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70 - 200 - application/json;+charset=utf-8 3237.1557ms
+2023-11-14 16:00:29 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70
+2023-11-14 16:00:29 [INF] CORS policy execution successful.
+2023-11-14 16:00:29 [INF] Executing endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:00:29 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] Login(BlogService.Application.DTOs.LoginDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 16:00:29 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 16:00:29 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 16:00:29 [INF] Executed action BlogService.Controllers.UserController.Login (BlogService) in 75.8683ms
+2023-11-14 16:00:29 [INF] Executed endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:00:29 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70 - 200 - application/json;+charset=utf-8 101.0925ms
+2023-11-14 16:00:48 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70
+2023-11-14 16:00:48 [INF] CORS policy execution successful.
+2023-11-14 16:00:48 [INF] Executing endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:00:48 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] Login(BlogService.Application.DTOs.LoginDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 16:00:56 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 16:00:56 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 16:00:56 [INF] Executed action BlogService.Controllers.UserController.Login (BlogService) in 7557.2064ms
+2023-11-14 16:00:56 [INF] Executed endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:00:56 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70 - 200 - application/json;+charset=utf-8 7578.3283ms
+2023-11-14 16:01:15 [INF] Request starting HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70
+2023-11-14 16:01:15 [INF] CORS policy execution successful.
+2023-11-14 16:01:15 [INF] Executing endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:01:15 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] Login(BlogService.Application.DTOs.LoginDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 16:01:17 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-14 16:01:20 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-14 16:01:20 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 16:01:20 [INF] Executed action BlogService.Controllers.UserController.Login (BlogService) in 4923.4971ms
+2023-11-14 16:01:20 [INF] Executed endpoint 'BlogService.Controllers.UserController.Login (BlogService)'
+2023-11-14 16:01:20 [INF] Request finished HTTP/2 POST https://localhost:7033/api/User/Loin application/json 70 - 200 - application/json;+charset=utf-8 4938.2664ms
+2023-11-14 16:02:29 [INF] Request starting HTTP/2 POST https://localhost:7033/api/Post application/json 129
+2023-11-14 16:02:29 [INF] CORS policy execution successful.
+2023-11-14 16:02:29 [INF] Executing endpoint 'BlogService.Controllers.PostController.PostCreate (BlogService)'
+2023-11-14 16:02:29 [INF] Route matched with {action = "PostCreate", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] PostCreate(BlogService.Application.DTOs.CreatePostDto) on controller BlogService.Controllers.PostController (BlogService).
+2023-11-14 16:02:29 [INF] Executed DbCommand (39ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Posts] ([Id], [Content], [CreatedAt], [ImageUrl], [ModifiedAt], [Title], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-11-14 16:02:29 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-11-14 16:02:29 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Content], [p].[CreatedAt], [p].[ImageUrl], [p].[ModifiedAt], [p].[Title], [p].[UserId], [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [t].[Id], [t].[Content], [t].[CreatedAt], [t].[ImageUrl], [t].[ModifiedAt], [t].[PostId], [t].[UserId], [t].[Id0], [t].[CommentId], [t].[Content0], [t].[CreatedAt0], [t].[ImageUrl0], [t].[ModifiedAt0], [t].[UserId0], [t].[parentReplyId]
+FROM [Posts] AS [p]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+LEFT JOIN (
+    SELECT [c].[Id], [c].[Content], [c].[CreatedAt], [c].[ImageUrl], [c].[ModifiedAt], [c].[PostId], [c].[UserId], [r].[Id] AS [Id0], [r].[CommentId], [r].[Content] AS [Content0], [r].[CreatedAt] AS [CreatedAt0], [r].[ImageUrl] AS [ImageUrl0], [r].[ModifiedAt] AS [ModifiedAt0], [r].[UserId] AS [UserId0], [r].[parentReplyId]
+    FROM [Comments] AS [c]
+    LEFT JOIN [Replies] AS [r] ON [c].[Id] = [r].[CommentId]
+) AS [t] ON [p].[Id] = [t].[PostId]
+ORDER BY [p].[Id], [u].[Id], [t].[Id]
+2023-11-14 16:02:29 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 16:02:29 [INF] Executed action BlogService.Controllers.PostController.PostCreate (BlogService) in 758.4003ms
+2023-11-14 16:02:29 [INF] Executed endpoint 'BlogService.Controllers.PostController.PostCreate (BlogService)'
+2023-11-14 16:02:29 [INF] Request finished HTTP/2 POST https://localhost:7033/api/Post application/json 129 - 200 - application/json;+charset=utf-8 881.8537ms
+2023-11-14 16:03:25 [INF] Request starting HTTP/2 GET https://localhost:7033/api/Post/PostWithCommentsandReplies/a1d12a70-be56-4c58-4eeb-08dbe4fd00ad - -
+2023-11-14 16:03:25 [INF] Executing endpoint 'BlogService.Controllers.PostController.PostWithComment (BlogService)'
+2023-11-14 16:03:25 [INF] Route matched with {action = "PostWithComment", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] PostWithComment(System.Guid) on controller BlogService.Controllers.PostController (BlogService).
+2023-11-14 16:03:25 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 16:03:25 [INF] Executed action BlogService.Controllers.PostController.PostWithComment (BlogService) in 93.4031ms
+2023-11-14 16:03:25 [INF] Executed endpoint 'BlogService.Controllers.PostController.PostWithComment (BlogService)'
+2023-11-14 16:03:25 [INF] Request finished HTTP/2 GET https://localhost:7033/api/Post/PostWithCommentsandReplies/a1d12a70-be56-4c58-4eeb-08dbe4fd00ad - - - 200 - application/json;+charset=utf-8 118.4977ms
+2023-11-14 12:37:59 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-11-14 12:37:59 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-14 12:37:59 [INF] Creating key {1c699dd5-2c6a-4c65-95b0-b72c23f7592a} with creation date 2023-11-14 12:37:59Z, activation date 2023-11-14 12:37:59Z, and expiration date 2024-02-12 12:37:59Z.
+2023-11-14 12:37:59 [WRN] No XML encryptor configured. Key {1c699dd5-2c6a-4c65-95b0-b72c23f7592a} may be persisted to storage in unencrypted form.
+2023-11-14 12:37:59 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-1c699dd5-2c6a-4c65-95b0-b72c23f7592a.xml'.
+2023-11-14 12:38:00 [INF] Now listening on: https://[::]:443
+2023-11-14 12:38:00 [INF] Now listening on: http://[::]:80
+2023-11-14 12:38:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 12:38:00 [INF] Hosting environment: Development
+2023-11-14 12:38:00 [INF] Content root path: /app/
+2023-11-14 12:38:02 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger - -
+2023-11-14 12:38:02 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger - - - 301 0 - 157.2781ms
+2023-11-14 12:38:02 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/index.html - -
+2023-11-14 12:38:02 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/index.html - - - 200 - text/html;charset=utf-8 415.8771ms
+2023-11-14 12:38:02 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/swagger-ui.css - -
+2023-11-14 12:38:02 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/swagger-ui-bundle.js - -
+2023-11-14 12:38:02 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/swagger-ui-standalone-preset.js - -
+2023-11-14 12:38:02 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-14 12:38:02 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/swagger-ui.css - - - 200 144929 text/css 109.0707ms
+2023-11-14 12:38:02 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-14 12:38:02 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 236.9052ms
+2023-11-14 12:38:03 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-14 12:38:03 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 488.1316ms
+2023-11-14 12:38:03 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/v1/swagger.json - -
+2023-11-14 12:38:03 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/favicon-32x32.png - -
+2023-11-14 12:38:03 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-14 12:38:03 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/favicon-32x32.png - - - 200 628 image/png 15.1032ms
+2023-11-14 12:38:03 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.3522ms
+2023-11-14 12:39:25 [INF] Request starting HTTP/2 POST https://localhost:62416/api/User application/json 136
+2023-11-14 12:39:25 [INF] CORS policy execution successful.
+2023-11-14 12:39:26 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:39:26 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 12:40:07 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 41606.7214ms
+2023-11-14 12:40:07 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:40:07 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter writer, Nullable`1 serverType, EndPointCollection endpoints) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 723
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 685
+   at BlogService.Common.Utilities.ConnectionHelper.<>c.<.cctor>b__0_0() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 13
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at BlogService.Common.Utilities.ConnectionHelper.get_Connection() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 19
+   at BlogService.Infrastructure.Services.CacheService.ConfigureRedis() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 17
+   at BlogService.Infrastructure.Services.CacheService..ctor() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BlogService.Middleware.RateLimitMiddleware.Invoke(HttpContext context) in G:\Development\TestRound\Code\BlogService\Middleware\RateLimitMiddleware.cs:line 40
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-14 12:40:07 [INF] Request finished HTTP/2 POST https://localhost:62416/api/User application/json 136 - 500 - text/plain;+charset=utf-8 42593.9298ms
+2023-11-14 12:40:12 [INF] Request starting HTTP/2 POST https://localhost:62416/api/User application/json 136
+2023-11-14 12:40:12 [INF] CORS policy execution successful.
+2023-11-14 12:40:12 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:40:12 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 12:40:24 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 11623.0846ms
+2023-11-14 12:40:24 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:40:24 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter writer, Nullable`1 serverType, EndPointCollection endpoints) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 723
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 685
+   at BlogService.Common.Utilities.ConnectionHelper.<>c.<.cctor>b__0_0() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 13
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at BlogService.Common.Utilities.ConnectionHelper.get_Connection() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 19
+   at BlogService.Infrastructure.Services.CacheService.ConfigureRedis() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 17
+   at BlogService.Infrastructure.Services.CacheService..ctor() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BlogService.Middleware.RateLimitMiddleware.Invoke(HttpContext context) in G:\Development\TestRound\Code\BlogService\Middleware\RateLimitMiddleware.cs:line 40
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-14 12:40:24 [INF] Request finished HTTP/2 POST https://localhost:62416/api/User application/json 136 - 500 - text/plain;+charset=utf-8 11673.5358ms
+2023-11-14 12:40:27 [INF] Request starting HTTP/2 POST https://localhost:62416/api/User application/json 136
+2023-11-14 12:40:27 [INF] CORS policy execution successful.
+2023-11-14 12:40:27 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:40:27 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 12:40:32 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 4623.9045ms
+2023-11-14 12:40:32 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:40:32 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter writer, Nullable`1 serverType, EndPointCollection endpoints) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 723
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 685
+   at BlogService.Common.Utilities.ConnectionHelper.<>c.<.cctor>b__0_0() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 13
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at BlogService.Common.Utilities.ConnectionHelper.get_Connection() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 19
+   at BlogService.Infrastructure.Services.CacheService.ConfigureRedis() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 17
+   at BlogService.Infrastructure.Services.CacheService..ctor() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BlogService.Middleware.RateLimitMiddleware.Invoke(HttpContext context) in G:\Development\TestRound\Code\BlogService\Middleware\RateLimitMiddleware.cs:line 40
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-14 12:40:32 [INF] Request finished HTTP/2 POST https://localhost:62416/api/User application/json 136 - 500 - text/plain;+charset=utf-8 4684.3185ms
+2023-11-14 12:40:51 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-11-14 12:40:51 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-14 12:40:51 [INF] Now listening on: https://[::]:443
+2023-11-14 12:40:51 [INF] Now listening on: http://[::]:80
+2023-11-14 12:40:51 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 12:40:51 [INF] Hosting environment: Development
+2023-11-14 12:40:51 [INF] Content root path: /app/
+2023-11-14 12:40:53 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/index.html - -
+2023-11-14 12:40:53 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/index.html - - - 200 - text/html;charset=utf-8 858.2552ms
+2023-11-14 12:40:54 [INF] Request starting HTTP/2 GET https://localhost:62416/swagger/v1/swagger.json - -
+2023-11-14 12:40:54 [INF] Request finished HTTP/2 GET https://localhost:62416/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.1550ms
+2023-11-14 12:41:14 [INF] Request starting HTTP/2 POST https://localhost:62416/api/User application/json 119
+2023-11-14 12:41:14 [INF] CORS policy execution successful.
+2023-11-14 12:41:15 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:41:15 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 12:41:33 [INF] Executed action BlogService.Controllers.UserController.CreateUser (BlogService) in 18633.2365ms
+2023-11-14 12:41:33 [INF] Executed endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:41:33 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(ConfigurationOptions configuration, TextWriter writer, Nullable`1 serverType, EndPointCollection endpoints) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 723
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 685
+   at BlogService.Common.Utilities.ConnectionHelper.<>c.<.cctor>b__0_0() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 13
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at BlogService.Common.Utilities.ConnectionHelper.get_Connection() in G:\Development\TestRound\Code\BlogService.Common\Utilities\ConnectionHelper.cs:line 19
+   at BlogService.Infrastructure.Services.CacheService.ConfigureRedis() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 17
+   at BlogService.Infrastructure.Services.CacheService..ctor() in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\CacheService.cs:line 13
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BlogService.Middleware.RateLimitMiddleware.Invoke(HttpContext context) in G:\Development\TestRound\Code\BlogService\Middleware\RateLimitMiddleware.cs:line 40
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-14 12:41:33 [INF] Request finished HTTP/2 POST https://localhost:62416/api/User application/json 119 - 500 - text/plain;+charset=utf-8 19001.4474ms
+2023-11-14 12:41:38 [INF] Request starting HTTP/2 POST https://localhost:62416/api/User application/json 119
+2023-11-14 12:41:38 [INF] CORS policy execution successful.
+2023-11-14 12:41:38 [INF] Executing endpoint 'BlogService.Controllers.UserController.CreateUser (BlogService)'
+2023-11-14 12:41:38 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] CreateUser(BlogService.Application.DTOs.CreateUserDto) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:18:40 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 18:18:41 [INF] Now listening on: https://localhost:7033
+2023-11-14 18:18:41 [INF] Now listening on: http://localhost:5038
+2023-11-14 18:18:41 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 18:18:41 [INF] Hosting environment: Development
+2023-11-14 18:18:41 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 18:18:42 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 18:18:43 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 903.0584ms
+2023-11-14 18:18:43 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 18:18:43 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 7.8165ms
+2023-11-14 18:18:43 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 18:18:43 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.4266ms
+2023-11-14 18:18:43 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 18:18:43 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.8488ms
+2023-11-14 18:21:15 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/56AFB7CC-C6FA-447B-531B-08DBE4E29E76 - -
+2023-11-14 18:21:15 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 18:21:15 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUserById(System.String) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:21:40 [ERR] An error occurred using the connection to database 'BlogService' on server 'host.docker.internal,1433'.
+2023-11-14 18:21:41 [ERR] An exception occurred while iterating over the results of a query for context type 'BlogService.Infrastructure.Data.BlogPostContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-14 18:21:41 [ERR] Error when feteched user
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at BlogService.Infrastructure.Services.UserService.GetUserAsync(String userId) in G:\Development\TestRound\Code\BlogService.Infrastructure\Services\UserService.cs:line 254
+2023-11-14 18:21:41 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 18:21:41 [INF] Executed action BlogService.Controllers.UserController.GetUserById (BlogService) in 25353.5997ms
+2023-11-14 18:21:41 [INF] Executed endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 18:21:41 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User/56AFB7CC-C6FA-447B-531B-08DBE4E29E76 - - - 200 - application/json;+charset=utf-8 25691.4427ms
+2023-11-14 18:22:25 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/56AFB7CC-C6FA-447B-531B-08DBE4E29E76 - -
+2023-11-14 18:22:25 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 18:22:25 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUserById(System.String) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:22:57 [ERR] An error occurred using the connection to database 'BlogService' on server 'host.docker.internal,1433'.
+2023-11-14 18:22:57 [ERR] An exception occurred while iterating over the results of a query for context type 'BlogService.Infrastructure.Data.BlogPostContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-14 18:24:00 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 18:24:00 [INF] Now listening on: https://localhost:7033
+2023-11-14 18:24:00 [INF] Now listening on: http://localhost:5038
+2023-11-14 18:24:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 18:24:00 [INF] Hosting environment: Development
+2023-11-14 18:24:00 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 18:24:01 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 18:24:02 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 818.5355ms
+2023-11-14 18:24:02 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 18:24:02 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 13.1058ms
+2023-11-14 18:24:02 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 18:24:02 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.5054ms
+2023-11-14 18:24:03 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 18:24:03 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.9930ms
+2023-11-14 18:24:19 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User/56AFB7CC-C6FA-447B-531B-08DBE4E29E76 - -
+2023-11-14 18:24:19 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 18:24:19 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUserById(System.String) on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:24:25 [INF] Executed DbCommand (162ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__get_Item_0
+2023-11-14 18:24:29 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 18:24:29 [INF] Executed action BlogService.Controllers.UserController.GetUserById (BlogService) in 10747.7866ms
+2023-11-14 18:24:29 [INF] Executed endpoint 'BlogService.Controllers.UserController.GetUserById (BlogService)'
+2023-11-14 18:24:29 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User/56AFB7CC-C6FA-447B-531B-08DBE4E29E76 - - - 200 - application/json;+charset=utf-8 10953.0589ms
+2023-11-14 18:47:54 [INF] User profile is available. Using 'C:\Users\welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-14 18:47:55 [INF] Now listening on: https://localhost:7033
+2023-11-14 18:47:55 [INF] Now listening on: http://localhost:5038
+2023-11-14 18:47:55 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-14 18:47:55 [INF] Hosting environment: Development
+2023-11-14 18:47:55 [INF] Content root path: G:\Development\TestRound\Code\BlogService\
+2023-11-14 18:47:58 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/index.html - -
+2023-11-14 18:47:58 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/index.html - - - 200 - text/html;charset=utf-8 845.8778ms
+2023-11-14 18:47:58 [INF] Request starting HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - -
+2023-11-14 18:47:58 [INF] Request finished HTTP/2 GET https://localhost:7033/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 11.9005ms
+2023-11-14 18:47:59 [INF] Request starting HTTP/2 GET https://localhost:7033/_vs/browserLink - -
+2023-11-14 18:47:59 [INF] Request finished HTTP/2 GET https://localhost:7033/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.1778ms
+2023-11-14 18:47:59 [INF] Request starting HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - -
+2023-11-14 18:47:59 [INF] Request finished HTTP/2 GET https://localhost:7033/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.5044ms
+2023-11-14 18:48:17 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User - -
+2023-11-14 18:48:17 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUsers (BlogService)'
+2023-11-14 18:48:17 [INF] Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUsers() on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:48:28 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedAt], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ImageUrl], [u].[IsDeleted], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedAt], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+2023-11-14 18:48:31 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 18:48:31 [INF] Executed action BlogService.Controllers.UserController.GetUsers (BlogService) in 13653.9661ms
+2023-11-14 18:48:31 [INF] Executed endpoint 'BlogService.Controllers.UserController.GetUsers (BlogService)'
+2023-11-14 18:48:31 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User - - - 200 - application/json;+charset=utf-8 13897.5451ms
+2023-11-14 18:48:33 [INF] Request starting HTTP/2 GET https://localhost:7033/api/User - -
+2023-11-14 18:48:33 [INF] Executing endpoint 'BlogService.Controllers.UserController.GetUsers (BlogService)'
+2023-11-14 18:48:33 [INF] Route matched with {action = "GetUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[BlogService.Common.Utilities.ResponseWrapper] GetUsers() on controller BlogService.Controllers.UserController (BlogService).
+2023-11-14 18:48:39 [INF] Executing ObjectResult, writing value of type 'BlogService.Common.Utilities.ResponseWrapper'.
+2023-11-14 18:48:39 [INF] Executed action BlogService.Controllers.UserController.GetUsers (BlogService) in 5419.1165ms
+2023-11-14 18:48:39 [INF] Executed endpoint 'BlogService.Controllers.UserController.GetUsers (BlogService)'
+2023-11-14 18:48:39 [INF] Request finished HTTP/2 GET https://localhost:7033/api/User - - - 200 - application/json;+charset=utf-8 5438.3057ms

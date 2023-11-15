@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server
+    container_name: blog_server_container
+    environment:
+      SA_PASSWORD: Kaspro@123456
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+
+  redis:
+    image: 'redis'
+    container_name: redis_container
+    restart: on-failure
+    environment:
+      - REDIS_PASSWORD=Kas@123456
+      - REDIS_PORT=6379
+    ports:
+      - "6379:6379"
+
+  blogservice:
+    image: myapp:latest
+    build:
+      context: .
+      dockerfile: BlogService/Dockerfile
+    depends_on:
+      - sql_server
+      - redis
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sql_server,1433;Database=BlogServer;User Id=sa;Password=Kaspro@123456;TrustServerCertificate=True;"
+      Redis__ConnectionString: "localhost:6379"
+
+  redis-cli:
+    image: redis
+    container_name: redis_cli_container
+    command: ["sh", "-c", "apk add --no-cache redis; redis-cli -h redis_container -p 6379"]
